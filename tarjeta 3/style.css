@@ -44,6 +44,11 @@ main {
         background: var(--very-pale-blue);
     }
 }
+@media (max-height: 660px){
+    .container--card{
+        height: 100%;
+    }
+}
 .card {
     width: 320px;
     border-radius: 15px;
